@@ -23,7 +23,7 @@ mkdir -p .git/safe
 
 # Pick a port for Foreman
 if ! grep --quiet --no-messages --fixed-strings 'port' .foreman; then
-  printf 'port: 5000\n' >> .foreman
+  printf 'port: 4000\n' >> .foreman
 fi
 
 if ! command -v foreman > /dev/null; then
@@ -34,3 +34,23 @@ fi
 # Only if this isn't CI
 # if [ -z "$CI" ]; then
 # fi
+
+# Set up the staging and production apps.
+if heroku join --app ontario-legislature-staging &> /dev/null; then
+  git remote add staging git@heroku.com:ontario-legislature-staging.git || true
+  printf 'You are a collaborator on the "ontario-legislature-staging" Heroku app
+'
+else
+  printf 'Ask for access to the "ontario-legislature-staging" Heroku app
+'
+fi
+
+if heroku join --app ontario-legislature-production &> /dev/null; then
+  git remote add production git@heroku.com:ontario-legislature-production.git || true
+  printf 'You are a collaborator on the "ontario-legislature-production" Heroku app
+'
+else
+  printf 'Ask for access to the "ontario-legislature-production" Heroku app
+'
+fi
+
