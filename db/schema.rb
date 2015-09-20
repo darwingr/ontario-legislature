@@ -36,7 +36,6 @@ ActiveRecord::Schema.define(version: 20150919151351) do
     t.string   "first_name",  null: false
     t.string   "last_name",   null: false
     t.string   "middle_name"
-    t.string   "photo"
     t.string   "title"
     t.string   "riding"
     t.datetime "created_at",  null: false
