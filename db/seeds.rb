@@ -5,7 +5,7 @@ members.each do |attributes|
   member.first_name = attributes['first_name']
   member.last_name = attributes['last_name']
   member.middle_name = attributes['middle_name']
-  member.title = attributes['riding']
+  member.title = attributes['title']
 
   Rails.logger.info "Saving #{member.last_name}, #{member.first_name}"
   member.save!
