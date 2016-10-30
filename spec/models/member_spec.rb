@@ -6,6 +6,10 @@ RSpec.describe Member, type: :model do
     it { should validate_presence_of :last_name }
   end
 
+  context 'associations' do
+    it { should have_many :problems }
+  end
+
   describe '.name' do
     it 'concatenates first name before last name' do
       member = create :member
