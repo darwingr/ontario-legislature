@@ -9,7 +9,7 @@ class Member < ApplicationRecord
   end
 
   def self.random_member
-    order("RANDOM()").limit(1)
+    order("RANDOM()").first
   end
 
   def name
