@@ -9,9 +9,10 @@ class GuessByAppearanceController < ApplicationController
 
   def create
     if guess_params[:answer] == guess_params[:guess]
-      redirect_to members_url, notice: 'Correct!'
+      redirect_to new_guess_by_appearance_url,
+        notice: 'Correct!'
     else
-      redirect_to :back, notice: 'Try again'
+      redirect_to :back, notice: "That's NOT my name!"
     end
   end
 
