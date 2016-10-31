@@ -1,0 +1,19 @@
+<h1>New Guess</h1>
+
+<p>
+  <%= image_tag @guess_by_appearance.photo %>
+</p>
+
+<ul>
+  <% @guess_by_appearance.name_list.each do |name| %>
+    <li>
+      <%= button_to name, { action: 'create'},
+        params: {
+          answer: @guess_by_appearance.correct_name,
+          guess: name
+        }
+      %>
+    </li>
+    <br/>
+    <% end %>
+</ul>

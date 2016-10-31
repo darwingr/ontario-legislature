@@ -6,6 +6,8 @@ class GuessByAppearance #< ApplicationRecord
     self.new member
   end
 
+  attr_reader :correct_name, :photo
+
   def initialize(member)
     @photo = member.photo
     @correct_name = member.name
