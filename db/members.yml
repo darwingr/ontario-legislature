@@ -37,9 +37,9 @@
   title: ""
 
 - riding: "Scarborough—Rouge River"
-  first_name: "Bas"
-  last_name: "Balkissoon"
-  middle_name: ""
+  first_name: "Raymond"
+  last_name: "Cho"
+  middle_name: "Sung Joon"
   title: ""
 
 - riding: "Newmarket—Aurora"
@@ -88,17 +88,23 @@
   first_name: "Michael"
   last_name: "Chan"
   middle_name: ""
-  title: ""
+  title: "Hon"
 
 - riding: "Ottawa West—Nepean"
   first_name: "Bob"
   last_name: "Chiarelli"
   middle_name: ""
-  title: ""
+  title: "Hon"
 
 - riding: "Leeds—Grenville"
   first_name: "Steve"
   last_name: "Clark"
+  middle_name: ""
+  title: ""
+
+- riding: "Whitby-Oshawa"
+  first_name: "Lorne"
+  last_name: "Coe"
   middle_name: ""
   title: ""
 
@@ -112,7 +118,7 @@
   first_name: "Michael"
   last_name: "Coteau"
   middle_name: ""
-  title: ""
+  title: "Hon"
 
 - riding: "Glengarry—Prescott—Russell"
   first_name: "Grant"
@@ -124,7 +130,7 @@
   first_name: "Dipika"
   last_name: "Damerla"
   middle_name: ""
-  title: ""
+  title: "Hon"
 
 - riding: "Mississauga—Streetsville"
   first_name: "Bob"
@@ -136,7 +142,7 @@
   first_name: "Steven"
   last_name: "Del Duca"
   middle_name: ""
-  title: ""
+  title: "Hon"
 
 - riding: "Brampton West"
   first_name: "Vic"
@@ -166,7 +172,7 @@
   first_name: "Brad"
   last_name: "Duguid"
   middle_name: ""
-  title: ""
+  title: "Hon"
 
 - riding: "Nipissing"
   first_name: "Victor"
@@ -184,7 +190,7 @@
   first_name: "Kevin"
   last_name: "Flynn"
   middle_name: "Daniel"
-  title: ""
+  title: "Hon"
 
 - riding: "Welland"
   first_name: "Cindy"
@@ -220,7 +226,7 @@
   first_name: "Michael"
   last_name: "Gravelle"
   middle_name: ""
-  title: ""
+  title: "Hon"
 
 - riding: "Windsor West"
   first_name: "Lisa"
@@ -268,11 +274,11 @@
   first_name: "Eric"
   last_name: "Hoskins"
   middle_name: ""
-  title: ""
+  title: "Hon"
 
 - riding: "Niagara West—Glanbrook"
-  first_name: "Tim"
-  last_name: "Hudak"
+  first_name: "Sam"
+  last_name: "Oosterhoff"
   middle_name: ""
   title: ""
 
@@ -280,13 +286,13 @@
   first_name: "Mitzie"
   last_name: "Hunter"
   middle_name: ""
-  title: ""
+  title: "Hon"
 
 - riding: "Oak Ridges—Markham"
   first_name: "Helena"
   last_name: "Jaczek"
   middle_name: ""
-  title: ""
+  title: "Hon"
 
 - riding: "Dufferin—Caledon"
   first_name: "Sylvia"
@@ -310,25 +316,25 @@
   first_name: "Marie-France"
   last_name: "Lalonde"
   middle_name: ""
-  title: ""
+  title: "Hon"
 
 - riding: "Peterborough"
   first_name: "Jeff"
   last_name: "Leal"
   middle_name: ""
-  title: ""
+  title: "Hon"
 
 - riding: "Brant"
   first_name: "Dave"
   last_name: "Levac"
   middle_name: ""
-  title: ""
+  title: "Hon"
 
 - riding: "Pickering—Scarborough East"
   first_name: "Tracy"
   last_name: "MacCharles"
   middle_name: ""
-  title: ""
+  title: "Hon"
 
 - riding: "Carleton—Mississippi Mills"
   first_name: "Jack"
@@ -376,13 +382,13 @@
   first_name: "Deborah"
   last_name: "Matthews"
   middle_name: ""
-  title: ""
+  title: "Hon"
 
 - riding: "Thunder Bay—Atikokan"
   first_name: "Bill"
   last_name: "Mauro"
   middle_name: ""
-  title: ""
+  title: "Hon"
 
 - riding: "Stormont—Dundas—South Glengarry"
   first_name: "Jim"
@@ -394,13 +400,13 @@
   first_name: "Kathryn"
   last_name: "McGarry"
   middle_name: ""
-  title: ""
+  title: "Hon"
 
 - riding: "Burlington"
   first_name: "Eleanor"
   last_name: "McMahon"
   middle_name: ""
-  title: ""
+  title: "Hon"
 
 - riding: "Ancaster—Dundas—Flamborough—Westdale"
   first_name: "Ted"
@@ -415,8 +421,8 @@
   title: ""
 
 - riding: "Ottawa—Vanier"
-  first_name: "Madeleine"
-  last_name: "Meilleur"
+  first_name: "Nathalie"
+  last_name: "DesRosiers"
   middle_name: ""
   title: ""
 
@@ -442,7 +448,7 @@
   first_name: "Reza"
   last_name: "Moridi"
   middle_name: ""
-  title: ""
+  title: "Hon"
 
 - riding: "York—Simcoe"
   first_name: "Julia"
@@ -454,19 +460,19 @@
   first_name: "Glen"
   last_name: "Murray"
   middle_name: "R."
-  title: ""
+  title: "Hon"
 
 - riding: "Halton"
   first_name: "Indira"
   last_name: "Naidoo-Harris"
   middle_name: ""
-  title: ""
+  title: "Hon"
 
 - riding: "Ottawa Centre"
   first_name: "Yasir"
   last_name: "Naqvi"
   middle_name: ""
-  title: ""
+  title: "Hon"
 
 - riding: "Essex"
   first_name: "Taras"
@@ -481,8 +487,8 @@
   title: ""
 
 - riding: "Sault Ste. Marie"
-  first_name: "David"
-  last_name: "Orazietti"
+  first_name: "Ross"
+  last_name: "Romano"
   middle_name: ""
   title: ""
 
@@ -514,7 +520,7 @@
   first_name: "Liz"
   last_name: "Sandals"
   middle_name: ""
-  title: ""
+  title: "Hon"
 
 - riding: "London West"
   first_name: "Peggy"
@@ -550,7 +556,7 @@
   first_name: "Charles"
   last_name: "Sousa"
   middle_name: ""
-  title: ""
+  title: "Hon"
 
 - riding: "Toronto—Danforth"
   first_name: "Peter"
@@ -574,7 +580,7 @@
   first_name: "Glenn"
   last_name: "Thibeault"
   middle_name: ""
-  title: ""
+  title: "Hon"
 
 - riding: "Huron—Bruce"
   first_name: "Lisa"
@@ -616,7 +622,7 @@
   first_name: "Kathleen"
   last_name: "Wynne"
   middle_name: "O."
-  title: ""
+  title: "Hon"
 
 - riding: "Renfrew—Nipissing—Pembroke"
   first_name: "John"
@@ -634,7 +640,7 @@
   first_name: "David"
   last_name: "Zimmer"
   middle_name: ""
-  title: ""
+  title: "Hon"
 
 # - riding: ""
 #   first_name: ""
