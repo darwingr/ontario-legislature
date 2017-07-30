@@ -1,6 +1,5 @@
-document.addEventListener('turbolinks:load', function(event) {
+$(document).on('ready page:load', function() {
   if (typeof ga === 'function') {
-    ga('set', 'location', event.data.url);
-    ga('send', 'pageview');
+    ga('send', 'pageview', window.location.pathname);
   }
 });
