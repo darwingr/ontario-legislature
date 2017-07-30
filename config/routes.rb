@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :members #, only: [:index, :show]
+  get 'guess_by_appearance/retry', to: 'guess_by_appearance#retry'
   resources :guess_by_appearance
 
   root 'guess_by_appearance#new'

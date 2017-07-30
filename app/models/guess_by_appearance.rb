@@ -6,6 +6,11 @@ class GuessByAppearance #< ApplicationRecord
     self.new member
   end
 
+  def self.retry_for(member_name)
+    member = Member.find_by_fullname member_name
+    self.new member
+  end
+
   attr_reader :correct_name, :photo
 
   def initialize(member)

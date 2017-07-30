@@ -1,6 +1,8 @@
 class GuessByAppearanceController < ApplicationController
 
-  def show
+  def retry
+    @guess_by_appearance = GuessByAppearance.retry_for guess_params[:answer]
+    render 'new'
   end
 
   def new
@@ -12,7 +14,8 @@ class GuessByAppearanceController < ApplicationController
       redirect_to new_guess_by_appearance_url,
         notice: 'Correct!'
     else
-      redirect_to :back, notice: "That's NOT my name!"
+      redirect_to guess_by_appearance_retry_path(answer: guess_params[:answer]),
+        notice: "That's NOT my name!"
     end
   end
 
