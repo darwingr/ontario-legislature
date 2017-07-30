@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.3.1'
+ruby '2.4.1'
 
 gem 'airbrake'
 gem 'autoprefixer-rails'
@@ -18,7 +18,7 @@ gem 'normalize-rails', '~> 4.1'
 gem 'pg'
 gem 'puma'
 gem 'rack-canonical-host'
-gem 'rails', '~> 5.0.0'
+gem 'rails', '~> 5.1.2'
 gem 'recipient_interceptor'
 gem 'refills'
 gem 'sass-rails', '~> 5.0'
